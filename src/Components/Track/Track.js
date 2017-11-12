@@ -35,6 +35,7 @@ class Track extends Component {
     return (
       <div className = "Track">
         <div className = "Track-information">
+        <img src = {this.props.track.art} alt = {this.props.track.album}/>
         <h3>{this.props.track.name}</h3>
         <p>{this.props.track.artist} | {this.props.track.album}</p>
         </div>
